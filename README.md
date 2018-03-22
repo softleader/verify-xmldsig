@@ -20,7 +20,7 @@ $ mvn clean package
 $ java -jar /absolute/path/to/signed-xml
 ```
 
-- `/absolute/path/to/signed-xml` - 是在當前電腦上的 **絕對位置**
+- `/absolute/path/to/signed-xml` - 要驗證數位簽章的 xml 位置, 是在當前電腦上的**絕對位置**
 
 ## References
 
