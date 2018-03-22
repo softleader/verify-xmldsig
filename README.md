@@ -6,10 +6,10 @@ Validating an XML Digital Signature
 ### Docker
 
 ```
-$ docker run --rm -it -v "$(pwd)":/data softleader/vxmldsig /relative/path/to/signed/xml
+$ docker run --rm -it -v "$(pwd)":/data softleader/vxmldsig relative/path/to/signed-xml
 ```
 
-- `/relative/path/to/signed/xml` -  要驗證數位簽章的 xml 位置, **是對於 $(pwd) 的相對位置**
+- `relative/path/to/signed-xml` -  要驗證數位簽章的 xml 位置, **是對於 $(pwd) 的相對位置**
 
 ### Source
 
@@ -17,10 +17,10 @@ $ docker run --rm -it -v "$(pwd)":/data softleader/vxmldsig /relative/path/to/si
 $ git clone git@github.com:softleader/verify-xmldsig.git
 $ cd verify-xmldsig
 $ mvn clean package
-$ java -jar /absolute/path/to/signed/xml
+$ java -jar /absolute/path/to/signed-xml
 ```
 
-- `/absolute/path/to/signed/xml` - 是在當前電腦上的 **絕對位置**
+- `/absolute/path/to/signed-xml` - 是在當前電腦上的 **絕對位置**
 
 ## References
 
