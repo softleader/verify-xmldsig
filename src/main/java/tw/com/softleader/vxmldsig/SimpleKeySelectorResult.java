@@ -1,4 +1,4 @@
-package tw.com.softleader.verifyxmldsig;
+package tw.com.softleader.vxmldsig;
 
 import javax.xml.crypto.KeySelectorResult;
 import java.security.Key;

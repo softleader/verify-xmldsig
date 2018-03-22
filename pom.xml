@@ -4,11 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tw.com.softleader</groupId>
-    <artifactId>verify-xmldsig</artifactId>
+    <artifactId>vxmldsig</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>verify-xmldsig</name>
+    <name>vxmldsig</name>
+    <description>Verifying an XML Digital Signature</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

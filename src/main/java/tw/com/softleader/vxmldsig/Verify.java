@@ -1,4 +1,4 @@
-package tw.com.softleader.verifyxmldsig;
+package tw.com.softleader.vxmldsig;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
